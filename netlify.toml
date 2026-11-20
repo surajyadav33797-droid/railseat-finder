@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/rail"
+  to = "/.netlify/functions/rail"
+  status = 200
